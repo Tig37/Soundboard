@@ -20,7 +20,7 @@ h1 {
         onchange="setVolume(this.value)">
 </div>
 
-..soundboard {
+.soundboard {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
