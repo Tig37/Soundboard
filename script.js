@@ -9,4 +9,6 @@ function setVolume(value) {
         sound.volume = value;
     });
 }
-
+window.onload=()=>{
+    setVolume(0.8);
+};
