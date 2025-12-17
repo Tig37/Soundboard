@@ -35,15 +35,19 @@ h1 {
 button {
     background-color: #1db954;
     border: none;
-    padding: 12px 10px;
+
     height: 70px;
+    padding: 10px;
+
     font-size: 14px;
     border-radius: 12px;
     cursor: pointer;
+
     white-space: normal;
     word-break: break-word;
     line-height: 1.2;
 }
+
 @media (max-width: 800px) {
     .soundboard {
         grid-template-columns: repeat(3, 1fr);
