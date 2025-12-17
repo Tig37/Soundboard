@@ -12,21 +12,22 @@ h1 {
 .soundboard {
     margin-top: 40px;
     display : grid;
-    grid-template-colums:repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-colums:repeat(auto-fill, 140px);
     gap: 15px;
-    max-width: 800px;
-    margin-left:auto;
-    margin-right: auto;
+    justify-content : center;
 }
 
 button {
     background-color: #1db954;
     border: none;
-    padding: 20px 25px;
+    padding: 12px;
+    height: 70px;
+    font-size: 14px;
     margin: 10px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
+    white-space: normal;
 }
 
 button:hover {
