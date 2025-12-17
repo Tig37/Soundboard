@@ -59,4 +59,17 @@ button {
 button:hover {
     background-color: #17a74a;
 }
+.volume-control {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.volume-control label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.volume-control input[type="range"] {
+    width: 200px;
+}
 
