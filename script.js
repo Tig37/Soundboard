@@ -3,4 +3,10 @@ function playSound(id) {
     audio.currentTime = 0;
     audio.play();
 }
+function setVolume(value) {
+    const sounds = document.querySelectorAll("audio");
+    sounds.forEach(sound => {
+        sound.volume = value;
+    });
+}
 
