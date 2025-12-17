@@ -60,12 +60,8 @@ button {
     }
 }
 
-
-button:hover {
-    background-color: #17a74a;
-}
 .volume-control {
-    margin-top: 20px;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -75,6 +71,7 @@ button:hover {
 }
 
 .volume-control input[type="range"] {
-    width: 200px;
+    width: 220px;
 }
+
 
